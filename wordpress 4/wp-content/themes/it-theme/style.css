@@ -1,0 +1,169 @@
+/*
+Theme Name: IT Company
+Author: root
+Version: 1.0
+*/
+
+/* global */
+
+.generic-content {
+	font-size: 15px;
+	margin: 25px;
+}
+
+
+
+
+
+/* index.php */
+
+
+/* about us */
+
+.about-us-content {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+/*  milestone */
+
+.milestone-content {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.milestone-title {
+	text-align: center;
+	margin: 0px 50px 50px 50px;
+}
+
+.milestone-value {
+	font-size: 72px;
+}
+
+.milestone-description {
+	font-size: 24px;
+}
+
+.milestone-info {
+	font-size: 14px;
+}
+
+.milestone-background-img {
+	background-image: url('./images/background/background2.jpg');
+	background-size: 100% 100%;
+  background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/* services */
+
+.services-content {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.services-title {
+	text-align: center;
+	margin: 0px 50px 50px 50px;
+	text-transform: uppercase;
+}
+
+.services-value {
+	font-size: 15px;
+	margin: 20px 0px 25px 0px;
+	text-transform: uppercase;
+}
+
+.services-img {
+	width: 50px;
+	height: 50px;
+}
+
+.services-background-img {
+	background-image: url('./images/background/background1.jpg');
+	background-size: 100% 100%;
+  background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/* partnerships */
+
+.partnerships-content {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.partnerships-title {
+	text-align: center;
+	margin: 0px 50px 50px 50px;
+	text-transform: uppercase;
+}
+
+.partnerships-img {
+	width: 225px;
+	height: 125px;
+}
+
+
+
+
+/* Pages */
+
+/* partnerships page */
+
+.padding {
+	padding-top: 10px
+}
+
+
+/* Footer */
+
+footer {
+	padding-top: 30px;
+}
+
+.footer-color {
+	background-color: #39c4ff
+}
+
+.footer-links {
+	margin-top: 10px;
+}
+
+.footer-links h6 {
+	font-size: 15px;
+}
+
+.footer-links ul {
+	list-style-type: none;
+}
+
+.footer-links a {
+	font-size: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+.footer-links address {
+	font-size: 13px;
+}
+
+/* themes css */
+
+/* contact */
+
+.title-text {
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+
+.contact-text {
+	text-align: center;
+}
+
+.contact-img {
+	margin-left: 95px;
+}
