@@ -83,7 +83,7 @@
 
 				<div class="col-md-3">
 					<div>
-						<h3 class="milestone-value">290</h3>
+						<h3 class="milestone-value">300+</h3>
 						<h4 class="milestone-description">SUPPORTED CUSTOMERS</h4>
 						<p class="milestone-info">The number of clients currently benefitting from the support of IT Corp.</p>
 					</div>

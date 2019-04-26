@@ -20,20 +20,17 @@
 			  </button>
 			  <div class="collapse navbar-collapse" id="navbarNav">
 			    <ul class="navbar-nav">
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Services</a>
+			      <li <?php if (get_post_type() == 'services') echo 'class="nav-item"'; ?>>
+			        <a class="nav-link" href="<?php echo get_post_type_archive_link('services'); ?>">Services</a>
 			      </li>
-			      <li <?php if (get_post_type() == 'team') echo 'class="nav-item"'; ?>>
+			      <li <?php if (get_post_type() == 'partnerships') echo 'class="nav-item"'; ?>>
 			        <a class="nav-link" href="<?php echo get_post_type_archive_link('partnerships'); ?>">Partnerships</a>
 			      </li>
-						<li class="nav-item">
-			        <a class="nav-link" href="#">Testimonials</a>
+						<li <?php if (get_post_type() == 'testimonials') echo 'class="nav-item"'; ?>>
+			        <a class="nav-link" href="<?php echo get_post_type_archive_link('testimonials'); ?>">Testimonials</a>
 			      </li>
 						<li class="nav-item">
 			        <a class="nav-link" href="#">Blog</a>
-			      </li>
-						<li <?php if (get_post_type() == 'team') echo 'class="nav-item"'; ?>>
-			        <a class="nav-link" href="<?php echo get_post_type_archive_link('team'); ?>">Meet The Team</a>
 			      </li>
 						<li class="nav-item">
 			        <a class="nav-link" href="#">Contact Us</a>

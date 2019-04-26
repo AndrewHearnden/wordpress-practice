@@ -147,8 +147,18 @@ footer {
 	color: black;
 }
 
+.footer-links p {
+	font-size: 10px;
+}
+
 .footer-links address {
-	font-size: 13px;
+	font-size: 10px;
+}
+
+.footer-img {
+	margin-right: 10px;
+	width: 40px;
+	height: 40px;
 }
 
 /* themes css */
