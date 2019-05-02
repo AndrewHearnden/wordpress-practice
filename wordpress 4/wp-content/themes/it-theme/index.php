@@ -6,29 +6,14 @@
 
 	<div>
 
-		<div class="carousel slide" data-ride="carousel" data-interval="5000">
-
-			<div class="carousel-inner">
-
-				<div class="carousel-item active">
-					<img class="d-block w-100" src="<?php echo get_theme_file_uri('./images/banner/banner-1.jpg'); ?>" alt="slide 1">
-				</div>
-
-				<div class="carousel-item">
-					<img class="d-block w-100" src="<?php echo get_theme_file_uri('./images/banner/banner-2.png'); ?>" alt="slide 2">
-				</div>
-
-				<div class="carousel-item">
-					<img class="d-block w-100" src="" alt="slide 3">
-				</div>
-
-			</div>
-
+		<div>
+			<img class="banner-img" src="<?php echo get_theme_file_uri('./images/banner/services-background.jpg'); ?>" alt="slide 1">
 		</div>
 
 	</div>
 
-	-->
+-->
+
 
 
 	<!-- about us -->
@@ -40,6 +25,7 @@
 		</div>
 
 		<div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 
@@ -148,14 +134,14 @@
 
 				</div>
 
-				<div class="row" style="text-align: center;">
+				<div class="row" style="text-align: center; margin-top: 50px;">
 
 					<div class="col-md-3">
 						<div>
 							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/002-shield.png'); ?>">
 						</div>
 						<div>
-							<h2 class="services-value">Anti-Virus</h2>
+							<h2 class="services-value">Security</h2>
 						</div>
 					</div>
 
@@ -164,38 +150,7 @@
 							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/014-email.png'); ?>">
 						</div>
 						<div>
-							<h2 class="services-value">Email and Web</h2>
-						</div>
-					</div>
-
-					<div class="col-md-3">
-						<div>
-							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/003-folder.png'); ?>">
-						</div>
-						<div>
-							<h2 class="services-value">Data Backup</h2>
-						</div>
-					</div>
-
-					<div class="col-md-3">
-						<div>
-							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/001-link.png'); ?>">
-						</div>
-						<div>
-							<h2 class="services-value">Network</h2>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="row" style="text-align: center;">
-
-					<div class="col-md-3">
-						<div>
-							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/015-24h.png'); ?>">
-						</div>
-						<div>
-							<h2 class="services-value">24 Hour</h2>
+							<h2 class="services-value">Email/Office 365</h2>
 						</div>
 					</div>
 
@@ -209,21 +164,14 @@
 					</div>
 
 					<div class="col-md-3">
-						<div>
-							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/012-onsite.png'); ?>">
-						</div>
-						<div>
-							<h2 class="services-value">Onsite</h2>
-						</div>
-					</div>
-
-					<div class="col-md-3">
-						<div>
-							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/010-arrow.png'); ?>">
-						</div>
-						<div>
-							<h2 class="services-value">See More</h2>
-						</div>
+						<a class="services-more" href="<?php echo get_post_type_archive_link('services'); ?>">
+							<div>
+								<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/010-arrow.png'); ?>">
+							</div>
+							<div>
+								<h2 class="services-value">See More</h2>
+							</div>
+						</a>
 					</div>
 
 				</div>

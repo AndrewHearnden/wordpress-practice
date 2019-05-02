@@ -13,7 +13,7 @@ add_action('wp_enqueue_scripts', 'it_theme_scripts');
 /* Register Navbar */
 
 function it_theme_nav() {
-	register_nav_menu('it-nav',__('Header Navbar'));
+	register_nav_menu('headerMenu',('Header Navbar'));
 }
 
 add_action('init', 'it_theme_nav');

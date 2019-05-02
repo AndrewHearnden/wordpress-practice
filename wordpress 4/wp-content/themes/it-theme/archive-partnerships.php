@@ -3,8 +3,9 @@
 <!-- banner -->
 
 <div>
-	<div>
-		<img>
+	<div class="partnerships-img-container">
+		<img src="<?php echo get_theme_file_uri('./images/banner/testimonials/testimonials-background-1.png'); ?>">
+		<div class="partnerships-img-text-centered">Partners We<br />Work With</div>
 	</div>
 </div>
 

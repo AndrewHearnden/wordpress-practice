@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
 <div>
-	<div class="img-container">
+	<div class="testimonials-img-container ">
 		<img src="<?php echo get_theme_file_uri('./images/banner/testimonials/testimonials-background-1.png'); ?>">
-		<div class="centered">what our<br />clients say</div>
+		<div class="testimonials-img-text-centered">what our<br />clients say</div>
 	</div>
 </div>
 
