@@ -3,7 +3,7 @@
 function custom_post_types() {
 
 	register_post_type('services', array(
-		'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
+		'supports' => array('title', 'editor', 'thumbnail'),
 		'rewrite' => array('slug' => 'services'),
 		'has_archive' => true,
 		'public' => true,

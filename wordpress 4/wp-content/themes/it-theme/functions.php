@@ -28,3 +28,15 @@ function category_service() {
 }
 
 add_action( 'init', 'category_service' );
+
+
+/* custom post type titles placeholders */
+
+function wpb_change_title_text( $title ){
+     $screen = get_current_screen();
+     if  ( 'services' == $screen->post_type ) {
+          $title = 'Enter Service Name';
+     }
+     return $title;
+}
+add_filter( 'enter_title_here', 'wpb_change_title_text' );

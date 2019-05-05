@@ -19,7 +19,7 @@
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
 			  <div class="collapse navbar-collapse" id="navbarNav">
-			    <ul class="navbar-nav">
+			    <ul class="navbar-nav ml-auto">
 			      <li <?php if (get_post_type() == 'services') echo 'class="nav-item"'; ?>>
 			        <a class="nav-link" href="<?php echo get_post_type_archive_link('services'); ?>">Services</a>
 			      </li>
