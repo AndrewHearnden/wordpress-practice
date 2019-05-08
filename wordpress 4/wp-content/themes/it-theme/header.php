@@ -8,12 +8,12 @@
 
 	<body <?php body_class(); ?> >
 
-		<header class="container">
+		<header>
 
 			<nav class="navbar navbar-expand-lg navbar-light">
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="<?php echo site_url() ?>">
 					<img src="<?php echo get_theme_file_uri('./images/itco-logo.svg'); ?>" width="30" height="30" class="d-inline-block align-top" alt="">
-					IT Corp
+					IT Company
 				</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>

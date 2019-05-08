@@ -40,3 +40,14 @@ function wpb_change_title_text( $title ){
      return $title;
 }
 add_filter( 'enter_title_here', 'wpb_change_title_text' );
+
+/* setting posts to display older post first */
+
+add_action( 'pre_get_posts', 'sk_change_portfolio_posts_order' );
+
+function sk_change_portfolio_posts_order( $query ) {
+    if ( $query->is_main_query() && !is_admin() && is_post_type_archive( 'services' ) ) {
+        $query->set( 'order', 'ASC' );
+        $query->set( 'orderby', 'date' );
+    }
+}

@@ -2,18 +2,14 @@
 
 <div>
 
-	<!-- static banner (cant be changed via amdin panel)
 
 	<div>
 
 		<div>
-			<img class="banner-img" src="<?php echo get_theme_file_uri('./images/banner/services-background.jpg'); ?>" alt="slide 1">
+			<img class="banner-img" src="<?php echo get_theme_file_uri('./images/banner/services-background.jpg'); ?>" alt="office building">
 		</div>
 
 	</div>
-
--->
-
 
 
 	<!-- about us -->
@@ -38,7 +34,7 @@
 		<div class="container milestone-content">
 
 			<div class="milestone-title">
-				<h2>WHY CHOOSE IT CORP SOLUTIONS? OUR WORK SPEAKS FOR ITSELF</h2>
+				<h2>WHY CHOOSE IT COMPANY SOLUTIONS? OUR WORK SPEAKS FOR ITSELF</h2>
 			</div>
 
 			<div class="row">
@@ -63,7 +59,7 @@
 					<div>
 						<h3 class="milestone-value">5</h3>
 						<h4 class="milestone-description">OUT OF 5 - SURVEY FEEDBACK</h4>
-						<p class="milestone-info">IT Corp gathers feedback on every call received by our helpdesk. This helps us maintain our excellent customer service.</p>
+						<p class="milestone-info">Company gathers feedback on every call received by our helpdesk. This helps us maintain our excellent customer service.</p>
 					</div>
 				</div>
 
@@ -71,7 +67,7 @@
 					<div>
 						<h3 class="milestone-value">300+</h3>
 						<h4 class="milestone-description">SUPPORTED CUSTOMERS</h4>
-						<p class="milestone-info">The number of clients currently benefitting from the support of IT Corp.</p>
+						<p class="milestone-info">The number of clients currently benefitting from the support of Company.</p>
 					</div>
 				</div>
 
@@ -98,7 +94,7 @@
 
 					<div class="col-md-3">
 						<div>
-							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/006-tv.png'); ?>">
+							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/256px/002-support.png'); ?>">
 						</div>
 						<div>
 							<h2 class="services-value">System Support</h2>
@@ -107,7 +103,7 @@
 
 					<div class="col-md-3">
 						<div>
-							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/009-download.png'); ?>">
+							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/256px/015-cloud.png'); ?>">
 						</div>
 						<div>
 							<h2 class="services-value">Cloud Solutions</h2>
@@ -116,7 +112,7 @@
 
 					<div class="col-md-3">
 						<div>
-							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/005-internet.png'); ?>">
+							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/256px/005-internet.png'); ?>">
 						</div>
 						<div>
 							<h2 class="services-value">Internet</h2>
@@ -125,7 +121,7 @@
 
 					<div class="col-md-3">
 						<div>
-							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/011-voip.png'); ?>">
+							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/256px/012-phone.png'); ?>">
 						</div>
 						<div>
 							<h2 class="services-value">VOIP</h2>
@@ -138,7 +134,7 @@
 
 					<div class="col-md-3">
 						<div>
-							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/002-shield.png'); ?>">
+							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/256px/009-anti-virus.png'); ?>">
 						</div>
 						<div>
 							<h2 class="services-value">Security</h2>
@@ -147,16 +143,16 @@
 
 					<div class="col-md-3">
 						<div>
-							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/014-email.png'); ?>">
+							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/256px/001-office-365.png'); ?>">
 						</div>
 						<div>
-							<h2 class="services-value">Email/Office 365</h2>
+							<h2 class="services-value">Office 365</h2>
 						</div>
 					</div>
 
 					<div class="col-md-3">
 						<div>
-							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/013-consultant.png'); ?>">
+							<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/256px/017-consultancy.png'); ?>">
 						</div>
 						<div>
 							<h2 class="services-value">Consultancy</h2>
@@ -166,7 +162,7 @@
 					<div class="col-md-3">
 						<a class="services-more" href="<?php echo get_post_type_archive_link('services'); ?>">
 							<div>
-								<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/128px/010-arrow.png'); ?>">
+								<img class="services-img" src="<?php echo get_theme_file_uri('./images/services/256px/018-next.png'); ?>">
 							</div>
 							<div>
 								<h2 class="services-value">See More</h2>

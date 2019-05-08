@@ -1,13 +1,5 @@
 <?php get_header(); ?>
 
-<!--
-<div>
-	<div class="services-img-container">
-		<img src="<?php echo get_theme_file_uri('./images/banner/testimonials/testimonials-background-1.png'); ?>">
-		<div class="services-img-text-centered ">Services<br />We Provide</div>
-	</div>
-</div>
--->
 
 
 <div class="container">

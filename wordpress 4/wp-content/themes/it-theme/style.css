@@ -11,6 +11,7 @@ Version: 1.0
 	margin: 25px;
 }
 
+/* nav bat */
 
 
 
@@ -19,7 +20,7 @@ Version: 1.0
 
 .banner-img {
 	width: 100%;
-	height: 100px;
+	height: 100%;
 }
 
 
@@ -44,6 +45,7 @@ Version: 1.0
 
 .milestone-value {
 	font-size: 72px;
+	text-transform: uppercase;
 }
 
 .milestone-description {
